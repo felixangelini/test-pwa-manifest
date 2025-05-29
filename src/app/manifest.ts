@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next'
  
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'BE Experience',
-    short_name: 'BE Experience',
+    name: 'BE Experience PWA',
+    short_name: 'BE Experience PWA short',
     description: 'A Progressive Web App built with Next.js',
     start_url: '/',
     display: 'standalone',
@@ -37,7 +37,7 @@ export default function manifest(): MetadataRoute.Manifest {
         form_factor: 'narrow'
       },
       {
-        src: '/icon512_maskable.png',
+        src: '/icon512_rounded.png',
         type: 'image/png',
         sizes: '512x512',
         form_factor: 'wide'
