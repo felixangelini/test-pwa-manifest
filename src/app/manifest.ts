@@ -3,7 +3,7 @@ import type { MetadataRoute } from 'next'
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'BE Experience PWA',
-    short_name: 'BE Experience PWA short',
+    short_name: 'BE Experience PWA',
     description: 'A Progressive Web App built with Next.js',
     start_url: '/',
     display: 'standalone',
@@ -23,7 +23,7 @@ export default function manifest(): MetadataRoute.Manifest {
         purpose: 'maskable'
       },
       {
-        src: '/icon512_rounded.png',
+        src: '/icon512_maskable.png',
         sizes: '512x512',
         type: 'image/png',
         purpose: 'maskable'
@@ -31,13 +31,13 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     screenshots: [
       {
-        src: '/icon512_rounded.png',
+        src: '/icon512_maskable.png',
         type: 'image/png',
         sizes: '512x512',
         form_factor: 'narrow'
       },
       {
-        src: '/icon512_rounded.png',
+        src: '/icon512_maskable.png',
         type: 'image/png',
         sizes: '512x512',
         form_factor: 'wide'
