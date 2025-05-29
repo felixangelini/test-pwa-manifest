@@ -16,12 +16,12 @@ export default function manifest(): MetadataRoute.Manifest {
         type: 'image/x-icon',
       },
       {
-        src: '/icon-192x192.png',
+        src: 'icon512_rounded.png',
         sizes: '192x192',
         type: 'image/png',
       },
       {
-        src: '/icon-512x512.png',
+        src: 'icon512_rounded.png',
         sizes: '512x512',
         type: 'image/png',
       },
